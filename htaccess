@@ -1,0 +1,44 @@
+ErrorDocument 403 /page57413835.html
+ErrorDocument 404 /page57413835.html
+
+DirectoryIndex page57091983.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^technological_services$ page57302041.html [NC]
+RewriteRule ^technological_services/$ page57302041.html [NC]
+
+RewriteRule ^jobs$ page57371575.html [NC]
+RewriteRule ^jobs/$ page57371575.html [NC]
+
+RewriteRule ^contacts$ page57375115.html [NC]
+RewriteRule ^contacts/$ page57375115.html [NC]
+
+RewriteRule ^ui_designer$ page57705481.html [NC]
+RewriteRule ^ui_designer/$ page57705481.html [NC]
+
+RewriteRule ^data_scientist$ page57706777.html [NC]
+RewriteRule ^data_scientist/$ page57706777.html [NC]
+
+RewriteRule ^full_stack_developer$ page57706899.html [NC]
+RewriteRule ^full_stack_developer/$ page57706899.html [NC]
+
+RewriteRule ^cloud_infrastructure_specialist$ page57727465.html [NC]
+RewriteRule ^cloud_infrastructure_specialist/$ page57727465.html [NC]
+
+RewriteRule ^privacy_policy$ page59309435.html [NC]
+RewriteRule ^privacy_policy/$ page59309435.html [NC]
+
+RewriteRule ^terms_of_use$ page59316047.html [NC]
+RewriteRule ^terms_of_use/$ page59316047.html [NC]
+
+RewriteRule ^cookie_policy$ page59317389.html [NC]
+RewriteRule ^cookie_policy/$ page59317389.html [NC]
+
+

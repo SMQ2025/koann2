@@ -1,0 +1,18 @@
+User-Agent: *
+Disallow: /page57092003.html
+Disallow: /page57092031.html
+Disallow: /page57413835.html
+Disallow: //form*
+Disallow: //rec*
+Disallow: //click*
+Disallow: //scroll*
+Disallow: //popup*
+Disallow: //cart*
+Disallow: //product*
+Disallow: //event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://koann.pro/sitemap.xml
+Host: https://koann.pro
